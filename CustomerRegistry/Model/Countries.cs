@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CustomerRegistry.Model
 {
+    /// <summary>
+    /// Enumerable of countries, &-signs have been removed
+    /// </summary>
     internal enum Countries
     {
         Afghanistan,

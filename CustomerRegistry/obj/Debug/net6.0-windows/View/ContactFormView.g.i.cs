@@ -55,7 +55,7 @@ namespace CustomerRegistry.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CustomerRegistry;V1.0.0.0;component/view/contactformview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CustomerRegistry;component/view/contactformview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\ContactFormView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

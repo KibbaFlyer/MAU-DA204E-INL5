@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace CustomerRegistry.Model
 {
+    /// <summary>
+    /// Contains components to create a contact, including sub-classes.
+    /// Expands BaseModel in order to provide reactiveness on property change.
+    /// </summary>
     internal class Contact : BaseModel
     {
         private int _id { get; set; }
@@ -28,6 +32,9 @@ namespace CustomerRegistry.Model
                 }
             }
         }
+        /// <summary>
+        /// Contains the firstname and lastname concatenated and the lastname in uppercase.
+        /// </summary>
         public string Name
         {
             get

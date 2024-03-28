@@ -24,6 +24,7 @@ namespace CustomerRegistry
         public MainWindow()
         {
             InitializeComponent();
+            // Setting the ViewModel and initializing it with the wished-for Author
             DataContext = new CustomerViewModel("Kristoffer Flygare");
         }
     }

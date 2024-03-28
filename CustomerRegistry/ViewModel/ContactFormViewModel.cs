@@ -12,6 +12,11 @@ using System.Windows;
 
 namespace CustomerRegistry.ViewModel
 {
+    /// <summary>
+    /// The ViewModel for the Contact Dialog window.
+    /// This is initialized either with a previous contact (upon edit) or if not the na new is created
+    /// Extends the ViewModelBase in order toallow for reactiveness on property change
+    /// </summary>
     internal class ContactFormViewModel: ViewModelBase
     {
         #region Private fields
@@ -19,6 +24,7 @@ namespace CustomerRegistry.ViewModel
         #endregion
         #region Public properties
         public List<Countries> Countries { get; }
+
         public List<CountryDisplayFriendly> CountryListDisplayFriendly { get; set; }
         public Contact Contact 
         {
@@ -40,6 +46,7 @@ namespace CustomerRegistry.ViewModel
         {
             Contact = initialContact ?? new Contact();
             Countries = Enum.GetValues(typeof(Countries)).Cast<Countries>().ToList();
+            // Setting the displayfriendly list for use in combobox DisplayMemberPath
             CountryListDisplayFriendly = new List<CountryDisplayFriendly>(
                         Countries.Select(countryEnum => new CountryDisplayFriendly
                         {
@@ -62,6 +69,9 @@ namespace CustomerRegistry.ViewModel
         {
             InvokeDialogClose(true);
         }
+        /// <summary>
+        /// Upon cancel, a messagebox is opened where it asks for confirmation
+        /// </summary>
         private void CancelAction()
         {
             MessageBoxResult messageBoxResult = MessageBox.Show("Are you sure you want to close?", "Close contact dialog", System.Windows.MessageBoxButton.YesNo);
@@ -74,6 +84,9 @@ namespace CustomerRegistry.ViewModel
         }
 
         #endregion
+        /// <summary>
+        /// Class used to display Enumerable in a user-friendly way
+        /// </summary>
         public class CountryDisplayFriendly
         {
             public string DisplayName { get; set; }

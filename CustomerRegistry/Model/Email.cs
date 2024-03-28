@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace CustomerRegistry.Model
 {
+    /// <summary>
+    /// Contains components to create emails for a Contact.
+    /// Expands BaseModel in order to provide reactiveness on property change.
+    /// </summary>
     internal class Email : BaseModel
     {
         private string _businessEmail {  get; set; }

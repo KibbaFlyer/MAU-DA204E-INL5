@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace CustomerRegistry.Model
 {
+    /// <summary>
+    /// Contains components to create phone numbers for a Contact.
+    /// Expands BaseModel in order to provide reactiveness on property change.
+    /// </summary>
     internal class Phone : BaseModel
     {
         private string _homePhone { get; set; }

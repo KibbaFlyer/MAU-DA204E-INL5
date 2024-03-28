@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace CustomerRegistry.Model
 {
+    /// <summary>
+    /// Contains components to create an address for a contact. 
+    /// Expands BaseModel in order to provide reactiveness on property change.
+    /// </summary>
     internal class Address : BaseModel
     {
         private string _street {  get; set; }

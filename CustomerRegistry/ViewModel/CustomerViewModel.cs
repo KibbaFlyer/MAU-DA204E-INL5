@@ -12,6 +12,10 @@ using System.Collections.ObjectModel;
 
 namespace CustomerRegistry.ViewModel
 {
+    /// <summary>
+    /// Main ViewModel of the application
+    /// Extends the ViewModelBase in order to give reactiveness on property change
+    /// </summary>
     internal class CustomerViewModel : ViewModelBase
     {
         #region Private fields
@@ -65,6 +69,7 @@ namespace CustomerRegistry.ViewModel
             {
                 if (value != _selectedContact && value != null)
                 {
+                    // Here we format the string for usage in a Label such that row-breaks and adjustment is consistent
                     _selectedContact = value;
                     string formattedContact = String.Format(
                         "{1}{0}{2}{0}{3} {4}{0}{5}{0}" +
@@ -94,6 +99,7 @@ namespace CustomerRegistry.ViewModel
                     CurrentContactDetails = formattedContact;
                     OnPropertyChanged(nameof(SelectedContact));
                 }
+                // If the selectedContact has been deleted, we need to reset the data
                 else if ( value == null )
                 {
                     _selectedContact = value;
@@ -126,6 +132,10 @@ namespace CustomerRegistry.ViewModel
         {
             return _selectedContact != null;
         }
+        /// <summary>
+        /// Opens up a new view with a new ViewModel.
+        /// Upon close the data is fed back to this main ViewModel if the DialogResult was true.
+        /// </summary>
         private void AddCommandAction()
         {
             var contactViewModel = new ContactFormViewModel();
@@ -151,6 +161,10 @@ namespace CustomerRegistry.ViewModel
                 }
                 );
         }
+        /// <summary>
+        /// Opens up a new view with a new ViewModel with data from the current contact selected.
+        /// Upon close the data is fed back to this main ViewModel if the DialogResult was true.
+        /// </summary>
         private void EditCommandAction()
         {
             int oldContactIndex = Contacts.IndexOf(_selectedContact);
@@ -189,7 +203,6 @@ namespace CustomerRegistry.ViewModel
                 Contacts.Remove(oldContact);
             }
             SelectedContact = null;
-
         }
         #endregion
     }
