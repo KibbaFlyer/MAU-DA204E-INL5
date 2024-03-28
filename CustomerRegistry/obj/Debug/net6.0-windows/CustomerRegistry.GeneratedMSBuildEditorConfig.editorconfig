@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CustomerRegistry
 build_property.ProjectDir = \\Mac\Home\Documents\GitHub\MAU-DA204E-INL5\CustomerRegistry\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

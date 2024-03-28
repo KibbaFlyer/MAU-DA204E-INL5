@@ -156,7 +156,7 @@ namespace CustomerRegistry.Model
         Saint_Lucia,
         Samoa,
         San_Marino,
-        Sao_Tome_&_Principe,
+        Sao_Tome_Principe,
         Saudi_Arabia,
         Senegal,
         Serbia,

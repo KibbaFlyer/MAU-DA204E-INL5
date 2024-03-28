@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 \\Mac\Home\Documents\GitHub\MAU-DA204E-INL5\CustomerRegistry\App.xaml
-11407045341
+31481561232
 
-11-1455945223
-194183970531
-MainWindow.xaml;
+18-860371378
+194-2005446070
+MainWindow.xaml;View\ContactFormView.xaml;View\DialogView.xaml;
 
-False
+True
 

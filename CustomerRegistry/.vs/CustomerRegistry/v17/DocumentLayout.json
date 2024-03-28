@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74884485-2307-48C0-91EF-5F7F55669697}|CustomerRegistry.csproj|\\\\mac\\home\\documents\\github\\mau-da204e-inl5\\customerregistry\\viewmodel\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74884485-2307-48C0-91EF-5F7F55669697}|CustomerRegistry.csproj|\\\\mac\\home\\documents\\github\\mau-da204e-inl5\\customerregistry\\model\\contact..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74884485-2307-48C0-91EF-5F7F55669697}|CustomerRegistry.csproj|\\\\mac\\home\\documents\\github\\mau-da204e-inl5\\customerregistry\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74884485-2307-48C0-91EF-5F7F55669697}|CustomerRegistry.csproj|\\\\mac\\home\\documents\\github\\mau-da204e-inl5\\customerregistry\\viewmodel\\contactformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74884485-2307-48C0-91EF-5F7F55669697}|CustomerRegistry.csproj|\\\\mac\\home\\documents\\github\\mau-da204e-inl5\\customerregistry\\view\\contactformview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74884485-2307-48C0-91EF-5F7F55669697}|CustomerRegistry.csproj|\\\\mac\\home\\documents\\github\\mau-da204e-inl5\\customerregistry\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74884485-2307-48C0-91EF-5F7F55669697}|CustomerRegistry.csproj|\\\\mac\\home\\documents\\github\\mau-da204e-inl5\\customerregistry\\view\\contactformview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74884485-2307-48C0-91EF-5F7F55669697}|CustomerRegistry.csproj|\\\\mac\\home\\documents\\github\\mau-da204e-inl5\\customerregistry\\model\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74884485-2307-48C0-91EF-5F7F55669697}|CustomerRegistry.csproj|\\\\mac\\home\\documents\\github\\mau-da204e-inl5\\customerregistry\\model\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74884485-2307-48C0-91EF-5F7F55669697}|CustomerRegistry.csproj|\\\\mac\\home\\documents\\github\\mau-da204e-inl5\\customerregistry\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74884485-2307-48C0-91EF-5F7F55669697}|CustomerRegistry.csproj|\\\\mac\\home\\documents\\github\\mau-da204e-inl5\\customerregistry\\view\\dialogview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74884485-2307-48C0-91EF-5F7F55669697}|CustomerRegistry.csproj|\\\\mac\\home\\documents\\github\\mau-da204e-inl5\\customerregistry\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 211,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\ViewModel\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ViewModelBase.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\ViewModel\\ViewModelBase.cs",
+              "RelativeToolTip": "ViewModel\\ViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T11:16:21.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerViewModel.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\ViewModel\\CustomerViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CustomerViewModel.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\ViewModel\\CustomerViewModel.cs*",
+              "RelativeToolTip": "ViewModel\\CustomerViewModel.cs*",
+              "ViewState": "AQIAAHwAAAAAmZmZmbk4wLAAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T11:08:59.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactFormViewModel.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\ViewModel\\ContactFormViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ContactFormViewModel.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\ViewModel\\ContactFormViewModel.cs",
+              "RelativeToolTip": "ViewModel\\ContactFormViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:12:39.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:28:23.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DialogView.xaml.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\View\\DialogView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\DialogView.xaml.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\View\\DialogView.xaml.cs",
+              "RelativeToolTip": "View\\DialogView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:34:30.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Email.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\Model\\Email.cs",
+              "RelativeDocumentMoniker": "Model\\Email.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\Model\\Email.cs",
+              "RelativeToolTip": "Model\\Email.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:29:27.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Phone.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\Model\\Phone.cs",
+              "RelativeDocumentMoniker": "Model\\Phone.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\Model\\Phone.cs",
+              "RelativeToolTip": "Model\\Phone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:29:21.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactFormView.xaml.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\View\\ContactFormView.xaml.cs",
+              "RelativeDocumentMoniker": "View\\ContactFormView.xaml.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\View\\ContactFormView.xaml.cs",
+              "RelativeToolTip": "View\\ContactFormView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwCAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T12:04:33.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T11:36:28.687Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact..cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\Model\\Contact..cs",
+              "RelativeDocumentMoniker": "Model\\Contact..cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\Model\\Contact..cs",
+              "RelativeToolTip": "Model\\Contact..cs",
+              "ViewState": "AQIAAAAAAAAANDMzMzMLwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:16:34.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T14:38:42.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactFormView.xaml",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\View\\ContactFormView.xaml",
+              "RelativeDocumentMoniker": "View\\ContactFormView.xaml",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\MAU-DA204E-INL5\\CustomerRegistry\\View\\ContactFormView.xaml",
+              "RelativeToolTip": "View\\ContactFormView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T12:44:46.068Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
