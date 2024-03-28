@@ -26,15 +26,5 @@ namespace CustomerRegistry.View
         {
             InitializeComponent();
         }
-        private void Ok_Button_Click(object sender, RoutedEventArgs e)
-        {
-            var window = this.Parent as Window;
-            window.DialogResult = true;
-        }
-        private void Cancel_Button_Click(object sender, RoutedEventArgs e)
-        {
-            var window = this.Parent as Window;
-            window.DialogResult = false;
-        }
     }
 }

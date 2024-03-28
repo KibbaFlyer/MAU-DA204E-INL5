@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CustomerRegistry.View"
+        xmlns:services="clr-namespace:CustomerRegistry.Services"
         xmlns:viewmodel="clr-namespace:CustomerRegistry.ViewModel" 
         d:DataContext="{d:DesignInstance Type=viewmodel:ContactFormViewModel}"
         mc:Ignorable="d"
@@ -74,7 +75,13 @@
                 <Label Content="Zip code" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalContentAlignment="Right"/>
                 <TextBox Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Text="{Binding Contact.Address.ZipCode}"/>
                 <Label Content="Country" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" HorizontalContentAlignment="Right"/>
-                <ComboBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" ItemsSource="{Binding Countries, UpdateSourceTrigger=PropertyChanged}" SelectedValue="{Binding Contact.Address.Country}"/>
+                <ComboBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" 
+                          ItemsSource="{Binding CountryListDisplayFriendly, UpdateSourceTrigger=PropertyChanged}" 
+                          SelectedValue="{Binding Contact.Address.Country}"
+                          SelectedValuePath="Value"
+                          DisplayMemberPath="DisplayName"
+                          >
+                </ComboBox>
             </Grid>
         </GroupBox>
         <Grid Grid.Row="3">
@@ -82,8 +89,8 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button Content="OK" Grid.Column="0" Margin="10" Click="Ok_Button_Click"/>
-            <Button Content="Cancel" Grid.Column="1" Margin="10" Click="Cancel_Button_Click"/>
+            <Button Content="OK" Grid.Column="0" Margin="10" Command="{Binding OkCommand}"/>
+            <Button Content="Cancel" Grid.Column="1" Margin="10" Command="{Binding CancelCommand}"/>
         </Grid>
 
     </Grid>

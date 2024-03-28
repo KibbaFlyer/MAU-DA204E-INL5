@@ -44,6 +44,15 @@ namespace CustomerRegistry.Services
             var viewInstance = Activator.CreateInstance(viewType) as FrameworkElement;
 
             viewInstance.DataContext = viewModel;
+            
+            // This part of to check for a specific ViewModel. If that ViewModel is used we want to add a listener to the CloseOnOk EventHandler
+            if (viewModel is ContactFormViewModel outContactViewModel)
+            {
+                outContactViewModel.CloseOnOk += (sender, dialogResult) =>
+                {
+                    dialog.DialogResult = dialogResult;
+                };
+            }
 
             dialog.Title = windowTitle;
 

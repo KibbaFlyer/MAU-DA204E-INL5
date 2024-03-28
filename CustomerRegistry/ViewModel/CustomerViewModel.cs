@@ -81,7 +81,7 @@ namespace CustomerRegistry.ViewModel
                         value.Address.Street,
                         value.Address.ZipCode,
                         value.Address.City,
-                        value.Address.Country.ToString(), //5
+                        value.Address.Country.ToString().Replace("_"," "), //5
                         "Emails",
                         "Private",
                         value.Email.PrivateEmail, // 8

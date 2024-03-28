@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 194-2005446070
 MainWindow.xaml;View\ContactFormView.xaml;View\DialogView.xaml;
 
-False
+True
 
